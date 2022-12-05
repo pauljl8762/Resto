@@ -1,61 +1,60 @@
-
-/*reset css*/
+﻿/*reset css*/
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 main, header {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 /* Default all images to 100%*/
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .section-title. {
-    text-align: center;
-    margin: 2em auto;
-    font-family: 'Rancho', cursive;
-    letter-spacing: 1px;
-    font-size: 2rem;
-    font-weight: lighter;
+  text-align: center;
+  margin: 2em auto;
+  font-family: 'Rancho', cursive;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 .section-title span {
-    display: block;
-    color: #E76f51;
-    margin-top: 0.5rem;
+  display: block;
+  color: #E76f51;
+  margin-top: 0.5rem;
 }
 .btn {
-    background-color: #2a9d8f;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border: none;
-    border-radius: 10px;
+  background-color: #2a9d8f;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 10px;
 }
 
 /* header style start*/
 header, nav, ul, li {
-    display: inline;
+  display: inline;
 }
 
 #logo {
-    display: inline;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    font-family: 'Rancho', cursive;
+  display: inline;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-family: 'Rancho', cursive;
 }
 
 #burger-menu {
-    display: inline;
-    float: right;
-    font-size: 1.6rem;
+  display: inline;
+  float: right;
+  font-size: 1.6rem;
 
 }
 /* header style end*/
@@ -65,35 +64,35 @@ header, nav, ul, li {
 
 /* hero style start*/
 .hero-info h1 {
-    font-weight: lighter;
-    font-size: 3.5rem;
-    color: rgb(50,50,50);
-    margin: 3rem 0;
+  font-weight: lighter;
+  font-size: 3.5rem;
+  color: rgb(50,50,50);
+  margin: 3rem 0;
 }
 
 .vegana {
-    color: #2A908f;
+  color: #2A908f;
 }
 #hero-buttons {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 #hero-buttons :first-child {
-    background-color: #E76f51;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    box-shadow: 5px 5px 15 #E76f51;
-    border-radius: 5px;
-    border: none;
-    margin-right: 15%;
+  background-color: #E76f51;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 5px 5px 15 #E76f51;
+  border-radius: 5px;
+  border: none;
+  margin-right: 15%;
 }
 #hero-buttons :last-child {
-    border: none;
-    background-color: white;
-    font-size: 1rem;
+  border: none;
+  background-color: white;
+  font-size: 1rem;
 }
 .hero-info img {
-    margin: 3rem 0;
+  margin: 3rem 0;
 }
 /* hero style end*/
 /* header style start*/
@@ -101,61 +100,61 @@ header, nav, ul, li {
 
 /* specialties style start*/
 .speciality-category {
-    color: hsl(12, 76%, 61%);
-    font-size: 0.9rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem; ;
-    padding-bottom: 0.5rem;
-    position: relative;
+  color: hsl(12, 76%, 61%);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; ;
+  padding-bottom: 0.5rem;
+  position: relative;
 }
 
 
 .speciality-category::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0.5rem;
-    border-bottom: 1px solid black;
-    
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+  border-bottom: 1px solid black;
+  
 }
 
 .speciality-description {
-    font-size: 1.1rem;
-    font-weight: lighter;
-    padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  padding: 1rem;
 }
 
 .speciality-title {
-    font-size: 2.6rem;
-    display: block;
-    position: relative;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+  font-size: 2.6rem;
+  display: block;
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .speciality-title::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0.5rem;
-    border-bottom: 1px solid black;
-    
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+  border-bottom: 1px solid black;
+  
 }
 
 .price {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .speciality-img {
-    box-shadow: 5px 5px 15px rgba(200,200,200,0,0);
-    
+  box-shadow: 5px 5px 15px rgba(200,200,200,0,0);
+  
 }
 /* specialties style end*/
 .menu-title {
@@ -173,36 +172,36 @@ padding: 0 2rem 2rem 2rem;
 }
 
 .menu-item::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0.5rem;
-    border-bottom: 1px solid black;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+  border-bottom: 1px solid black;
 }
 
 .menu-item:last-child:after {
-    border: none;
+  border: none;
 
 }
 
 .menu-item img {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    margin-right: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right: 1rem;
 }
 
 .menu-item section h3 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 
 }
 
 .menu-item section h3 span {
-    margin-left: 3rem;
-    font-weight: lighter;
-    color: #333333;
+  margin-left: 3rem;
+  font-weight: lighter;
+  color: #333333;
 
 }
 
@@ -212,82 +211,126 @@ color: #333333;
 
 
 
-/*menu style start*/
+/*testimony style start*/
+
+.testimony-text {
+  margin: 3%;
+  position: relative;
+  display: flex;
+}
+
+.section-title {
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  display: flex;
+  text-align: center;
+  color: white;
+}
+.lorem {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  color: white;
+  display: flex;
+  font-size: larger;
+  font-weight: lighter;
+  font-family: 'Rancho', cursive;
+}
+.lorem-ipsom {
+  position: absolute;
+  bottom: 150px;
+  left: 250px;
+  color: black;
+  display: flex;
+  font-size: large;
+  font-weight: lighter;
+  font-family: 'Rancho', cursive;
+  
+}
+.customer {
+  position: absolute;
+  top: 15px;
+  left: 200px;
+  display: flex;
+  color: #E76f51;
+  display: flex;
+}
 
 
 
-/*menu style end*/
+/* testimony style end*/
 @media screen and (min-width: 725px;){
-    body {
-      max-width: 960px; 
-       margin: 0 auto;
+  body {
+    max-width: 960px; 
+     margin: 0 auto;
 
-    }
-    main {
-       padding: 0; 
+  }
+  main {
+     padding: 0; 
 
-    }
-    header, nav, ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+  }
+  header, nav, ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-    }
+  }
 
-    header, nav, ul, li {
-        display: inline;
-        font-weight: bold;
-        font-size: 1.2rem;
+  header, nav, ul, li {
+      display: inline;
+      font-weight: bold;
+      font-size: 1.2rem;
 
-    }
+  }
 
-    #burger-menu {
-        display: none;
-    }
+  #burger-menu {
+      display: none;
+  }
 .hero {
-    display: flex;
-    padding: 1rem;
+  display: flex;
+  padding: 1rem;
 }
 .hero-info {
-    padding: 1rem;
+  padding: 1rem;
 }
 #hero-buttons {
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 .hero-info-block {
-    display: block;
+  display: block;
 }
 #hero-img {
-    width: 375px;
+  width: 375px;
 }
 
 .specialties {
-    padding: 2rem;
-    background-color: #efefef;
+  padding: 2rem;
+  background-color: #efefef;
 }
 
 .specialty-item {
-    display: flex;
-    align-items: center;
-    gap: 4rem;
-    margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 2rem;
 }
 .speciality-img {
-    width: 375px;
+  width: 375px;
 }
 
 .price {
-    flex-direction: column;
-    align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 
 }
 
 .price span {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .specialty-item:last-child .speciality-img {
-    order: 1;
+  order: 1;
 }
 .specialty-item:last-child .specialty-info {
 order: 2;
