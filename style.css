@@ -209,6 +209,36 @@ padding: 0 2rem 2rem 2rem;
 color: #333333;
 }
 
+/*expertise style starts here*/
+.experts {
+  position: relative;
+  margin-bottom: 1rem;
+  
+}
+.experts-img {
+  height: 60vh;
+
+}
+.expert-info {
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 1.5rem auto;
+  padding: 0.5rem;
+  text-align: center;
+
+}
+.expert-info p {
+  color: #333333;
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+/*expertise style ends here*/
+
 
 
 /*testimony style start*/
@@ -219,7 +249,7 @@ color: #333333;
   display: flex;
 }
 
-.section-title {
+.section-head {
   position: absolute;
   top: 17px;
   left: 10px;
@@ -336,6 +366,47 @@ color: #333333;
 order: 2;
 }
 .menu-container {
-
+display: flex;
+padding: 2rem;
+flex-wrap: wrap;
 }
+}
+@media screen and (width: 600px){
+div {
+  flex-wrap: wrap;
+}
+
+
+  .speciality-title {
+    position: absolute;
+    display:flex;
+  }
+  .lorem {
+    display: flex;
+    position: absolute;
+    font-size: xx-large;
+  }
+  .lorem-ipsom {
+    display:flex;
+    position: absolute;
+    bottom: 300px;
+    left: 575px;
+    font-size: xx-large;
+  }
+  .customer {
+    display: flex;
+    position: absolute;
+  }
+  .experts {
+    padding: 2rem;
+
+  }
+  .experts-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .experts-img {
+    height: 350px;
+    
+  }
 }
