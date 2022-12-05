@@ -238,6 +238,33 @@ color: #333333;
 }
 
 /*expertise style ends here*/
+/*footer style start*/
+.footer {
+  background-color: #333333;
+  padding: 1rem;
+  color: white;
+}
+
+.footer-info-p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-title {
+  color: #E76f51;
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.opening-times  {
+list-style: none;
+}
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+/*footer style end*/
 /*reservation style start*/
 .reservation {
   position: relative;
@@ -476,4 +503,15 @@ div {
     width: 40%;
     height: 90%;
   }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 2rem;
+  }
+   .footer-2, .footer-3 {
+    flex: 1 1 350px;
+   }
+
 }
